@@ -1,13 +1,34 @@
 .headerheight{
     height: 20%;
 }
+/** nav bar height */
+
+#navmargin{
+    margin-bottom: 0px;
+}
+
+
+/** footer **/
 footer{
     width:100%;
-    min-height: 20px;
+    height: 50px;
     background-color: #333;
+    position: relative;
+    bottom: 0px;
 
 }
 footer p{
     color: #9d9d9d;
+
+}
+#copyright{
+position:absolute;
+top:30%;
+left: 45%;
+}
+/* change carousel size */
+#myCarousel{
+  width:60%;
+  margin: 0 auto;
 
 }
