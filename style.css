@@ -5,7 +5,15 @@
 
 #navmargin{
     margin-bottom: 0px;
+   
 }
+.nav>li>a {
+    margin-top:20%;
+}
+#o_navbar-brand{
+    height: 80px;
+}
+
 
 
 /** footer **/
@@ -31,4 +39,37 @@ left: 45%;
   width:60%;
   margin: 0 auto;
 
+}
+
+/* individual page styling */
+
+/* overwrite the button */
+.owbtn{
+    background: #333;
+    border-color: #333;
+    color: grey;
+}
+.owbtn:hover {
+      background: #333;
+      color: white;
+}
+/* make the photo bigger when mouse over it*/
+
+.l_t_margin{
+ margin-top: 30px;
+ margin-left:30px;
+}
+.l_padding{
+    padding-left: 200px;
+}
+
+.imgeffect:hover img {
+    transform: scale(1.5);
+    width:150px
+
+}
+/* make the social media icon bigger when mouse over it*/
+
+i:hover {
+     transform: scale(1.5);
 }
